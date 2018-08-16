@@ -11,7 +11,7 @@ except Exception as ex:
 	print('''		--------------------------------------
 			REQUIRED PYTHON 3.x
 			use: python3 fb.py
-			for more WhatsApp +91 8419027520
+			Send your problems on https://m.me/B14CKH4K3R
 		--------------------------------------
 			''')
 	sys.exit()

@@ -4,7 +4,7 @@ import sys
 if sys.version_info[0] !=2: 
 	print('''--------------------------------------
 	REQUIRED PYTHON 2.x
-	use: python3 fb.py
+	use: python fb2.py
 	Send your problems on https://m.me/B14CKH4K3R
 --------------------------------------
 			''')

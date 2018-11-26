@@ -9,7 +9,6 @@ if sys.version_info[0] !=3:
 	print('''--------------------------------------
 	REQUIRED PYTHON 3.x
 	use: python3 fb.py
-	Send your problems on https://m.me/B14CKH4K3R
 --------------------------------------
 			''')
 	sys.exit()

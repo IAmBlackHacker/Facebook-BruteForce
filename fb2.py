@@ -37,7 +37,7 @@ while file:
 	passw=file.readline().strip()
 	i+=1
 	if len(passw) < 6:
-		contunue
+		continue
 	print str(i) +" : ",passw
 	response = browser.open(post_url)
 	try:

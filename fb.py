@@ -46,9 +46,15 @@ def function(email,passw,i):
 	return False
 
 print('\n---------- Welcome To Facebook BruteForce ----------\n')
-file=open('passwords.txt','r')
 
 email=input('Enter Email/Username : ')
+
+try:
+  file=open('passwords.txt','r')
+except:
+  print("Password File Not Found! Please Check if passwords.txt is in current directory")
+  exit()
+
 
 print("\nTarget Email ID : ",email)
 print("\nTrying Passwords from list ...")

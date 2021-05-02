@@ -3,7 +3,7 @@
 Bruteforce attack for Facebook Account
 ```
 
-## Install Requirements(Linux)
+## Install Requirements (on Linux)
 ```
 >> apt-get install git python3 python3-pip python python-pip
 ```

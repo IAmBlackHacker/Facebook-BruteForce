@@ -12,8 +12,8 @@ Bruteforce attack for Facebook Account
 ```
 >> git clone https://github.com/IAmBlackHacker/Facebook-BruteForce
 >> cd Facebook-BruteForce
->> pip3 install requests bs4
->> pip install mechanize
+>> python3 -m pip install requests bs4
+>> python3 -m pip install mechanize
 >> python3 fb.py or python fb2.py
 ```
 
@@ -31,5 +31,5 @@ Bruteforce attack for Facebook Account
 https://www.facebook.com/B14CKH4K3R/
 
 ~~~
-Happy Hacking Day ! (Please do not spam it, It's Just For Knowledge ...).
+Happy Hacking Day! (Just For Knowledge).
 ~~~

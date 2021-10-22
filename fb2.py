@@ -1,6 +1,9 @@
 import time
 import sys
-
+start = time.time()
+print("time has started")
+end = time.time()
+print(end - start)
 if sys.version_info[0] !=2: 
 	print('''--------------------------------------
 	REQUIRED PYTHON 2.x

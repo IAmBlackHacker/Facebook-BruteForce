@@ -1,6 +1,6 @@
 # Facebook-BruteForce
 ```
-Bruteforce attack for Facebook Account
+Bruteforce attack, For educational purpose only
 ```
 ## Find here a video on YouTube
 https://youtu.be/qIfGxDmRQIU
@@ -33,5 +33,5 @@ https://youtu.be/qIfGxDmRQIU
 https://www.facebook.com/B14CKH4K3R/
 
 ~~~
-Happy Hacking Day! (Just For Knowledge).
+Happy Hacking Day !
 ~~~
